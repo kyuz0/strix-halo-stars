@@ -14,3 +14,5 @@ Before changing content, read that repository’s `AGENTS.md`, `MEMORIES.md`, `p
 - Publishing, pushing to GitHub, changing Pages settings, or adding a custom domain requires the user’s instruction; creating the local page is not publication authorization.
 
 Use unpadded public episode numbers: “Episode 1”, “Episode 2”, and so on; banner numerals should be “1”, “2”, etc.
+
+Selected visual identity: `artwork/chip-constellation.png`, combining a gold processor outline, three connected stars and flowing gold/grey traces. Use `artwork/banner-wide.png` for the titled wide version and `docs/assets/cover-square-3000.jpg` for the titled square cover. Preserve the original generated square source; the 3000-pixel JPEG is a resampled export.

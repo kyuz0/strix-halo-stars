@@ -16,7 +16,15 @@ Open http://127.0.0.1:8000. You can also open `docs/index.html` directly.
 
 The authoritative podcast workspace is `/home/kyuz0/Documents/Projects/strix-halo-stars-podcast`. Read [`AGENTS.md`](AGENTS.md) before editing. The page currently previews episode 1 as **in production**, with no feed, player, release date, or listening-platform claims.
 
-`docs/brand.css` mirrors the Toolboxes brand tokens from `/home/kyuz0/Documents/Projects/amd-strix-halo-gfx1151-toolboxes/docs/brand.css`. Layout and responsive rules live in `docs/styles.css`. The processor-contour artwork was generated specifically for this landing page; the episode number is real HTML, so future episodes can use new artwork and accessible text without baking metadata into images. The generated PNG source is retained in `artwork/`; the page uses a compressed WebP in `docs/assets/`.
+`docs/brand.css` mirrors the Toolboxes brand tokens from `/home/kyuz0/Documents/Projects/amd-strix-halo-gfx1151-toolboxes/docs/brand.css`. Layout and responsive rules live in `docs/styles.css`. The selected artwork combines a processor, a three-star constellation and flowing gold/grey traces. The hero uses the text-free square illustration; the episode preview uses the titled wide banner. Generated PNG sources are retained in `artwork/`; the page uses compressed WebPs in `docs/assets/`. Episode numbering stays in HTML metadata rather than being baked into show artwork. The original processor-contour PNG is retained as an earlier source.
+
+## Artwork exports
+
+- [Wide titled banner](artwork/banner-wide.png): 2172×724 PNG (3:1).
+- [Square podcast cover](docs/assets/cover-square-3000.jpg): 3000×3000 opaque RGB JPEG, with the podcast title.
+- [Text-free chip and constellation](artwork/chip-constellation.png): 1254×1254 PNG.
+
+The square cover was generated at 1254×1254; the 3000-pixel export is a high-quality Lanczos resample, not a claim of native 3000-pixel generation. Its original is preserved as `artwork/cover-square-source.png`. No upload to a podcast service has been performed.
 
 ## When episode 1 is published
 
