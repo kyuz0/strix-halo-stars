@@ -16,7 +16,7 @@ Open http://127.0.0.1:8000. You can also open `docs/index.html` directly.
 
 The authoritative podcast workspace is `/home/kyuz0/Documents/Projects/strix-halo-stars-podcast`. Read [`AGENTS.md`](AGENTS.md) before editing. The page currently previews episode 1 as **coming soon**, with no feed, player, release date, or listening-platform claims.
 
-`docs/brand.css` mirrors the Toolboxes brand tokens from `/home/kyuz0/Documents/Projects/amd-strix-halo-gfx1151-toolboxes/docs/brand.css`. Layout and responsive rules live in `docs/styles.css`. The selected artwork combines a processor, a three-star constellation and flowing gold/grey traces. The hero uses the text-free square illustration; the episode preview uses the titled wide banner. Generated PNG sources are retained in `artwork/`; the page uses compressed WebPs in `docs/assets/`. Episode numbering stays in HTML metadata rather than being baked into show artwork. The original processor-contour PNG is retained as an earlier source.
+`docs/brand.css` mirrors the Toolboxes brand tokens from `/home/kyuz0/Documents/Projects/amd-strix-halo-gfx1151-toolboxes/docs/brand.css`. Layout and responsive rules live in `docs/styles.css`. The selected artwork combines a processor, a three-star constellation and flowing gold/grey traces. The hero uses the text-free square illustration; the episode preview uses the titled square cover. Generated PNG sources are retained in `artwork/`; the page uses compressed WebPs in `docs/assets/`. Episode numbering stays in HTML metadata rather than being baked into show artwork. The original processor-contour PNG is retained as an earlier source.
 
 ## Artwork exports
 

@@ -20,3 +20,5 @@ Selected visual identity: `artwork/chip-constellation.png`, combining a gold pro
 Title typography: keep “STARS” gold, with the same font size and capital-letter height as “STRIX HALO”. Do not enlarge it or stretch it to the first line’s width. Apply this to wide and square artwork.
 
 Public-facing copy should contain only useful listener information. Use “Coming soon” for an unreleased episode; keep editing progress, production status and internal workflow details out of the public page. Avoid repeating the same availability message in multiple places.
+
+Layout correction, 24 October 2026: follow the actual Toolboxes drafting-grid background and restrained type scale. Keep page typography compact (current title cap: 48px desktop, 30–32px phones; body 15–16px). Do not restore a giant two-line hero or a full-width square hero image on phones. The episode artwork MUST remain square at all viewport sizes; use `docs/assets/cover-square.webp`, not the wide banner. Keep the wide file only as a separate artwork export. Check mobile touch emulation and visual density as well as overflow; a page can have no horizontal overflow and still scale badly.
