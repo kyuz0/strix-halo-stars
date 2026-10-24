@@ -1,0 +1,16 @@
+# Strix Halo Stars — landing page
+
+This repository contains only the public static website. The actual podcast content, editorial instructions, episode status, research, production records, and publication decisions live in **`/home/kyuz0/Documents/Projects/strix-halo-stars-podcast`**.
+
+Before changing content, read that repository’s `AGENTS.md`, `MEMORIES.md`, `planning/STATUS.md`, and the relevant episode’s `README.md`. Treat them as the source of truth. Do not copy private production files, recordings, contacts, or unpublished transcripts into this repository.
+
+- Keep the site static and buildless in `docs/`, suitable for GitHub Pages with `/docs` as its source. Use relative asset paths so project-subpath hosting works. Do not add a framework or backend for routine page work.
+- Preserve the Toolboxes visual identity: charcoal `#171a1d`, warm gold `#f2b544`, off-white text, restrained monospace details, and a minimal layout. The reference is `/home/kyuz0/Documents/Projects/amd-strix-halo-gfx1151-toolboxes/docs/` and https://strix-halo-toolboxes.com/.
+- Donato Capitella creates and hosts the show. In episode 1, Usman Pirzada from AMD introduces and interviews Donato throughout. Keep this distinction accurate.
+- Episode 1 is in production. Add playback, RSS, listening-platform links, duration, and release date only after actual publication details are available. Never invent a release schedule, subscriber count, or availability.
+- Include the short AMD sponsorship acknowledgement. Do not present this community podcast or Toolboxes as official AMD products.
+- Preserve the established Toolboxes, YouTube, GitHub, LinkedIn, and Buy Me a Coffee destinations. Keep authored copy in Donato’s first person.
+- Check desktop and mobile layout, keyboard focus, internal navigation, and asset loading after visual changes. Preserve reduced-motion support.
+- Publishing, pushing to GitHub, changing Pages settings, or adding a custom domain requires the user’s instruction; creating the local page is not publication authorization.
+
+Use unpadded public episode numbers: “Episode 1”, “Episode 2”, and so on; banner numerals should be “1”, “2”, etc.
