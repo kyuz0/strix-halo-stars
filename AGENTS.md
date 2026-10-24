@@ -16,3 +16,7 @@ Before changing content, read that repository’s `AGENTS.md`, `MEMORIES.md`, `p
 Use unpadded public episode numbers: “Episode 1”, “Episode 2”, and so on; banner numerals should be “1”, “2”, etc.
 
 Selected visual identity: `artwork/chip-constellation.png`, combining a gold processor outline, three connected stars and flowing gold/grey traces. Use `artwork/banner-wide.png` for the titled wide version and `docs/assets/cover-square-3000.jpg` for the titled square cover. Preserve the original generated square source; the 3000-pixel JPEG is a resampled export.
+
+Title typography: keep “STARS” gold, with the same font size and capital-letter height as “STRIX HALO”. Do not enlarge it or stretch it to the first line’s width. Apply this to wide and square artwork.
+
+Public-facing copy should contain only useful listener information. Use “Coming soon” for an unreleased episode; keep editing progress, production status and internal workflow details out of the public page. Avoid repeating the same availability message in multiple places.
