@@ -114,7 +114,7 @@ h2 { padding-left: 12px; border-left: 2px solid var(--brand-gold); font-size: 28
   .episode-meta { font-size: 13px; }
   .show-subscribe { margin-top: 4px; }
   .episode-list-link { grid-template-columns: minmax(0, 1fr); gap: 20px; align-items: start; }
-  .episode-list-cover { width: 200px; height: 200px; }
+  .episode-list-cover { width: 100%; height: auto; aspect-ratio: 1; }
   .episode-list-copy h3 { font-size: 20px; }
   .episode-summary { font-size: 15px; }
 
