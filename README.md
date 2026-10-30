@@ -1,6 +1,6 @@
 # Strix Halo Stars
 
-Minimal static landing page for Donato Capitella’s podcast about the people building local AI on AMD Strix Halo. The website is in [`docs/`](docs/); there are no build tools, package dependencies or first-party JavaScript. Episode playback uses RSS.com’s embedded player.
+Minimal static landing page for Donato Capitella’s podcast about the people building local AI on AMD Strix Halo. The website is in [`docs/`](docs/); there are no build tools, package dependencies or first-party JavaScript. Both pages load Donato’s Plausible analytics script from `https://plausible.skybound.link/js/plausible.js`, using `data-domain="strix-halo-stars.com"`. Episode playback uses RSS.com’s embedded player.
 
 ## Preview
 
