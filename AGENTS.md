@@ -7,7 +7,7 @@ Before changing content, read that repository’s `AGENTS.md`, `MEMORIES.md`, `p
 - Keep the site static and buildless in `docs/`, suitable for GitHub Pages with `/docs` as its source. Use relative asset paths so project-subpath hosting works. Do not add a framework or backend for routine page work.
 - Preserve the Toolboxes visual identity: charcoal `#171a1d`, warm gold `#f2b544`, off-white text, restrained monospace details, and a minimal layout. The reference is `/home/kyuz0/Documents/Projects/amd-strix-halo-gfx1151-toolboxes/docs/` and https://strix-halo-toolboxes.com/.
 - Donato Capitella creates and hosts the show. In episode 1, Usman Pirzada from AMD introduces and interviews Donato throughout. Keep this distinction accurate.
-- Episode 1 is in production. Add playback, RSS, listening-platform links, duration, and release date only after actual publication details are available. Never invent a release schedule, subscriber count, or availability.
+- Episode 1 was published on RSS.com on 30 October 2026 at 17:55:13 UTC. The website uses its episode-specific dark player, published details, RSS feed and episode cover. Apple Podcasts, Spotify and Amazon Music are still processing in the latest dashboard screenshot; add their buttons when public links work. Never invent a release schedule, subscriber count, or availability.
 - Include the short AMD sponsorship acknowledgement. Do not present this community podcast or Toolboxes as official AMD products.
 - Preserve the established Toolboxes, YouTube, GitHub, LinkedIn, and Buy Me a Coffee destinations. Keep authored copy in Donato’s first person.
 - Check desktop and mobile layout, keyboard focus, internal navigation, and asset loading after visual changes. Preserve reduced-motion support.

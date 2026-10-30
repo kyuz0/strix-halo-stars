@@ -1,6 +1,6 @@
 # Strix Halo Stars
 
-Minimal static landing page for Donato Capitella’s podcast about the people building local AI on AMD Strix Halo. The website is in [`docs/`](docs/); there are no build tools, package dependencies, JavaScript, analytics, or embedded third-party players.
+Minimal static landing page for Donato Capitella’s podcast about the people building local AI on AMD Strix Halo. The website is in [`docs/`](docs/); there are no build tools, package dependencies or first-party JavaScript. Episode playback uses RSS.com’s embedded player.
 
 ## Preview
 
@@ -14,9 +14,9 @@ Open http://127.0.0.1:8000. You can also open `docs/index.html` directly.
 
 ## Content and branding
 
-The authoritative podcast workspace is `/home/kyuz0/Documents/Projects/strix-halo-stars-podcast`. Read [`AGENTS.md`](AGENTS.md) before editing. The page currently previews episode 1 as **coming soon**, with no feed, player, release date, or listening-platform claims.
+The authoritative podcast workspace is `/home/kyuz0/Documents/Projects/strix-halo-stars-podcast`. Read [`AGENTS.md`](AGENTS.md) before editing. Episode 1 was published on RSS.com on 30 October 2026. The page includes its published title, date, duration, episode cover, episode-specific dark player, chapter list, public transcript/episode link and RSS subscription link. Directory buttons can be added once their public URLs work; directory processing does not block website publication.
 
-`docs/brand.css` mirrors the Toolboxes brand tokens from `/home/kyuz0/Documents/Projects/amd-strix-halo-gfx1151-toolboxes/docs/brand.css`. Layout and responsive rules live in `docs/styles.css`. The selected artwork combines a processor, a three-star constellation and flowing gold/grey traces. The hero uses the text-free square illustration; the episode preview uses the titled square cover. Generated PNG sources are retained in `artwork/`; the page uses compressed WebPs in `docs/assets/`. Episode numbering stays in HTML metadata rather than being baked into show artwork. The original processor-contour PNG is retained as an earlier source.
+`docs/brand.css` mirrors the Toolboxes brand tokens from `/home/kyuz0/Documents/Projects/amd-strix-halo-gfx1151-toolboxes/docs/brand.css`. Layout and responsive rules live in `docs/styles.css`. The selected artwork combines a processor, a three-star constellation and flowing gold/grey traces. The hero uses the text-free square illustration; Episode 1 uses its own topic-specific square cover. Generated PNG sources are retained in `artwork/`; the page uses compressed WebPs in `docs/assets/`. Episode numbering stays in HTML metadata rather than being baked into show artwork. The original processor-contour PNG is retained as an earlier source.
 
 ## Artwork exports
 
@@ -24,12 +24,12 @@ The authoritative podcast workspace is `/home/kyuz0/Documents/Projects/strix-hal
 - [Square podcast cover](docs/assets/cover-square-3000.jpg): 3000×3000 opaque RGB JPEG, with the podcast title.
 - [Text-free chip and constellation](artwork/chip-constellation.png): 1254×1254 PNG.
 
-The square cover was generated at 1254×1254; the 3000-pixel export is a high-quality Lanczos resample, not a claim of native 3000-pixel generation. Its original is preserved as `artwork/cover-square-source.png`. No upload to a podcast service has been performed.
+The square cover was generated at 1254×1254; the 3000-pixel export is a high-quality Lanczos resample, not a claim of native 3000-pixel generation. Its original is preserved as `artwork/cover-square-source.png`. The show and episode audio are hosted on RSS.com.
 
-## When episode 1 is published
+## Publishing episodes
 
-Update the status and description from the approved publication package, then add the actual audio-host/player and RSS/listening links. Set the canonical URL, absolute Open Graph image URL, and social preview metadata when the website’s public URL is decided. Keep every asset path relative and verify the site at both a domain root and a GitHub Pages project subpath.
+Follow the podcast repository’s `docs/PUBLISHING.md` and episode publication record. Use the actual RSS.com episode embed from Share → Embed → Episode, preserving the episode ID so older entries keep playing the intended release. Keep audio on RSS.com and copy only public-ready artwork and copy here. Use relative paths for local assets and verify desktop/mobile layout, keyboard access, chapters and playback before pushing.
 
 ## Hosting
 
-This is ready for GitHub Pages using **Deploy from a branch**, branch `main`, folder `/docs`, once the files have been committed and pushed and publication is authorized. `docs/.nojekyll` keeps the static files unprocessed. No deployment or custom domain is configured by this change.
+The site is published at https://strix-halo-stars.com/ using GitHub Pages, branch `main`, folder `/docs`. `docs/.nojekyll` keeps the static files unprocessed. Preserve `docs/CNAME` and verify the live page after pushing.
