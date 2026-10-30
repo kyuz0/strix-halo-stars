@@ -12,7 +12,7 @@
   <link rel="alternate" type="application/rss+xml" title="Strix Halo Stars podcast feed" href="https://media.rss.com/strix-halo-stars/feed.xml">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="brand.css">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body class="brand-surface" id="top">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -21,8 +21,8 @@
       <a class="wordmark" href="#top" aria-label="Strix Halo Stars home">STRIX <span>HALO</span>_STARS</a>
       <nav aria-label="Main navigation">
         <a href="#episodes">Episodes</a>
+        <a href="#subscribe">Subscribe</a>
         <a href="#about">About</a>
-        <a href="https://strix-halo-toolboxes.com/">Toolboxes <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
@@ -34,7 +34,15 @@
           <h1 id="show-title">Strix Halo <span>Stars</span></h1>
           <p class="intro">Conversations with the people building local AI on AMD Strix Halo.</p>
           <p class="byline">A podcast by Donato Capitella.</p>
-          <a class="button" href="#episodes">Listen to episode 1 <span aria-hidden="true">↓</span></a>
+          <div class="show-subscribe" id="subscribe">
+            <p>Listen on your favourite podcast app</p>
+            <ul class="social-links platform-links" aria-label="Podcast listening apps">
+              <li><a class="text-link" href="https://podcasts.apple.com/us/podcast/strix-halo-stars/id6828989790">Apple Podcasts</a></li>
+              <li><a class="text-link" href="https://pocketcasts.com/podcast/strix-halo-stars/4653eed0-b6bb-013f-aeba-0e76ff9c8f21">Pocket Casts</a></li>
+              <li><a class="text-link" href="https://open.spotify.com/search/Strix%20Halo%20Stars">Search Spotify</a></li>
+              <li><a class="text-link" href="https://media.rss.com/strix-halo-stars/feed.xml">RSS feed</a></li>
+            </ul>
+          </div>
         </div>
         <img class="hero-art" src="assets/chip-constellation.webp" width="1254" height="1254" alt="" fetchpriority="high">
       </section>
@@ -43,33 +51,14 @@
         <div class="section-heading">
           <h2 id="episodes-title">Episodes</h2>
         </div>
-        <article class="episode" aria-labelledby="episode-001-title">
-          <div class="episode-copy">
+        <article class="episode-list-item" aria-labelledby="episode-1-title">
+          <img class="episode-list-cover" src="assets/episodes/episode-1.webp" width="400" height="400" alt="" decoding="async">
+          <div class="episode-list-copy">
             <p class="episode-meta">Episode 1 · <time datetime="2026-10-30">30 October 2026</time> · 41:31</p>
-            <h3 id="episode-001-title">Donato’s local AI journey: Strix Halo, Toolboxes and the community</h3>
-            <p>Usman Pirzada from AMD interviews me about how I got started with local AI, the Toolboxes project, specialised community engines, and the models we can run on Strix Halo.</p>
-            <div class="episode-player">
-              <iframe src="https://player.rss.com/strix-halo-stars/3261781?theme=dark&amp;v=2" title="Play Episode 1: Donato’s local AI journey" width="100%" height="202" allow="clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
-              <p class="subscribe-copy">Listen on your favourite podcast app:</p>
-              <ul class="social-links platform-links" aria-label="Podcast listening apps">
-                <li><a class="text-link" href="https://podcasts.apple.com/us/podcast/strix-halo-stars/id6828989790">Apple Podcasts <span aria-hidden="true">↗</span></a></li>
-                <li><a class="text-link" href="https://pocketcasts.com/podcast/strix-halo-stars/4653eed0-b6bb-013f-aeba-0e76ff9c8f21">Pocket Casts <span aria-hidden="true">↗</span></a></li>
-                <li><a class="text-link" href="https://open.spotify.com/search/Strix%20Halo%20Stars">Search Spotify <span aria-hidden="true">↗</span></a></li>
-              </ul>
-              <p class="listen-links"><a class="text-link" href="https://rss.com/podcasts/strix-halo-stars/3261781/">Listen and read the transcript on RSS.com</a> <span aria-hidden="true">·</span> <a class="text-link" href="https://media.rss.com/strix-halo-stars/feed.xml">RSS feed</a></p>
-            </div>
-            <details class="episode-notes">
-              <summary>Episode chapters</summary>
-              <ol class="chapter-list">
-                <li><time datetime="PT0S">00:00</time> Welcome and Donato’s Strix Halo journey</li>
-                <li><time datetime="PT9M50S">09:50</time> Building and sharing Toolboxes</li>
-                <li><time datetime="PT17M38S">17:38</time> Community engines and optimisations</li>
-                <li><time datetime="PT26M51S">26:51</time> Local models: Qwen, DeepSeek and GLM</li>
-                <li><time datetime="PT37M20S">37:20</time> What’s next for local AI?</li>
-              </ol>
-              <p>This episode is sponsored by AMD.</p>
-            </details>
+            <h3 id="episode-1-title"><a href="episodes/1/">Donato’s local AI journey</a></h3>
+            <p class="episode-summary">Usman Pirzada from AMD interviews me about Strix Halo, Toolboxes and the local AI community.</p>
           </div>
+          <a class="episode-list-action" href="episodes/1/" aria-label="Listen to Episode 1: Donato’s local AI journey">Listen <span aria-hidden="true">→</span></a>
         </article>
       </section>
 
